@@ -5,4 +5,4 @@
 <img src="https://github.com/dev7odaa/Profile-Android-Kotlin/blob/main/app/src/main/res/drawable/Youtube-logo-vector-PNG.png" width="250"/>
 
 
-[![WATCH VEDIO APP HERE](https://github.com/dev7odaa/Profile-Android-Kotlin/blob/main/app/src/main/res/drawable/Youtube-logo-vector-PNG.png) width="250"](https://drive.google.com/file/d/1YhCY8UG9d3dKLg9zH1WkcsOdA3udmQI6/view)
+[![WATCH VEDIO APP HERE](https://github.com/dev7odaa/Profile-Android-Kotlin/blob/main/app/src/main/res/drawable/Youtube-logo-vector-PNG.png)](https://drive.google.com/file/d/1YhCY8UG9d3dKLg9zH1WkcsOdA3udmQI6/view)
