@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Profile</string>
+
+    <string name="profile">Profile</string>
+    <string name="my_albums">My Albums</string>
+    <string name="joey_tribbiani">Joey Tribbiani</string>
+    <string name="new_york_usa">new york, usa</string>
+    <string name="title">Title</string>
+    <string name="label">Search</string>
+</resources>
