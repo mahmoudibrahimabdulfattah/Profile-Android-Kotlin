@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(), AlbumAdapter.OnItemClick {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        index = UsersId.randomUserId
+        index = index = UsersId.rand(1, 10)
         context = this
         tv_username = findViewById(R.id.tv_userName)
         tv_address = findViewById(R.id.tv_address)
@@ -51,6 +51,16 @@ class MainActivity : AppCompatActivity(), AlbumAdapter.OnItemClick {
 
         initList()
         initViewModel()
+    }
+    
+    override fun onResume() {
+        super.onResume()
+        index = UsersId.rand(1, 10)
+        Log.d(TAG, "onResume: $index")
+
+        initViewModel()
+        setUIDate()
+        initList()
     }
 
     private fun initList() {
